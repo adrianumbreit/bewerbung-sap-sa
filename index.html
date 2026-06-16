@@ -199,7 +199,8 @@
   .tl-item { position: relative; padding: 0 0 30px 30px; border-left: 1px solid var(--line); }
   .tl-item:last-child { border-left-color: transparent; padding-bottom: 0; }
   .tl-item::before {
-    content: ""; position: absolute; left: -7px; top: 4px;
+    content: ""; position: absolute; left: 0; top: 4px;
+    transform: translateX(-50%);
     width: 11px; height: 11px; border-radius: 50%;
     background: var(--bg); border: 2px solid var(--accent);
   }
